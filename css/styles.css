@@ -1,0 +1,159 @@
+body  {
+
+  font-family: "montserrat";
+}
+
+#title  {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 3% 15%;
+}
+.container-fluid  {
+
+}
+
+h1  {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 4.5rem;
+}
+a {
+  color: white;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.25rem;
+}
+
+.nav-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image  {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+  z-index: 1;
+  left: 80px;
+  top: 60px;
+}
+
+#features {
+  padding: 5% 17%;
+  background-color: #fff;
+
+  position: relative;
+  top: -100px;
+  z-index: 1;
+}
+.features {
+  text-align: center;
+  padding:0 20% ;
+
+}
+h3  {
+  font-family: "Montserrat-Bold";
+  font-size: 1.5rem;
+}
+
+p {
+  color:gray;
+}
+
+.first  {
+
+  color: #fff;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+.testimonial-image  {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press  {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item  {
+  padding: 7% 15%;
+}
+
+#pricing  {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col  {
+  padding: 2% 3%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  .title-image  {
+    position: static;
+    transform: rotate(0);
+
+  }
+
+  #title  {
+    text-align: center;
+  }
+
+}
+#cta  {
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: #ff4c68;
+  padding: 7% 35%;
+}
+#footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 100px 0 50px;
+}
+
+.cta-text {
+  color: #fff;
+  padding: 30px 0;
+}
+
+.icon {
+  padding: 0 5px;
+}
+p {
+  padding-top: 20px;
+}
+@media (max-width:1028px) {
+  .button {
+    margin: 20px auto;
+  }
+}
+
+
+.ico  {
+  color: #ff4c68;
+}
